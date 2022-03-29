@@ -32,7 +32,7 @@ const INITIAL_STATE = {
     },
   ],
   cart: [], // id, title, desc, price, img, qty
-  currentItem: null,
+  currentItem: null, // It will have current item
 };
 export const shoppingCartReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
