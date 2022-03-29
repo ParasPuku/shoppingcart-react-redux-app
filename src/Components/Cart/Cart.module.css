@@ -74,8 +74,6 @@
   .empty__cart_container img{
     width: 200px;
     height: 200px;
-    border: 2px solid #000;
-    border-radius: 100%;
     padding: 5px;
   }
 
