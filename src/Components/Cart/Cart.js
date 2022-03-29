@@ -4,6 +4,9 @@ import styles from "./Cart.module.css";
 import { connect } from "react-redux";
 import CartItem from "./CartItem/CartItem";
 
+import EmptyCart from "../../Assets/empty-cart.png";
+import { Link } from "react-router-dom";
+
 const Cart = ({ cart }) => {
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalItems, setTotalItems] = useState(0);
@@ -21,7 +24,7 @@ const Cart = ({ cart }) => {
     setTotalPrice(price);
   }, [cart, totalPrice, totalItems, setTotalPrice, setTotalItems]);
 
-  return (
+  return cart.length > 0 ? (
     <div className={styles.cart}>
       <div className={styles.cart__items}>
         {cart.map((item) => (
@@ -38,6 +41,17 @@ const Cart = ({ cart }) => {
           Proceed To Checkout
         </button>
       </div>
+    </div>
+  ) : (
+    <div className={styles.empty__cart_container}>
+      <img src={EmptyCart} alt="" />
+      <h1>Ooooops, Your Cart is Empty.!!</h1>
+      <h2>Checkout what is trending now..</h2>
+      <Link to="/">
+        <button className={styles.continue__shopping__btn}>
+          Continue Shopping
+        </button>
+      </Link>
     </div>
   );
 };
