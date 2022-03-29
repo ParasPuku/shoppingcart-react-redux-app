@@ -2,7 +2,7 @@
 
 
 # Application snapshots 
-<img width="960" alt="shoppingCart5" src="https://user-images.githubusercontent.com/65712411/160551306-73f9fa6d-760f-4c3d-bb0b-bb487d011a41.PNG">
+<img width="960" alt="shoppingCart5" src="https://user-images.githubusercontent.com/65712411/160576075-271de109-7eb3-4948-94ee-ed2be72084e2.PNG">
 <img width="960" alt="shoppingCart1" src="https://user-images.githubusercontent.com/65712411/160531051-1904a707-d026-495e-86ff-adef152fc8a8.PNG">
 <img width="960" alt="shoppingCart2" src="https://user-images.githubusercontent.com/65712411/160531107-189c3b33-ce66-43b6-82bc-835e06e292e7.PNG">
 <img width="960" alt="shoppingCart3" src="https://user-images.githubusercontent.com/65712411/160531139-6c125d5a-4315-4887-a826-837a6031d49b.PNG">
